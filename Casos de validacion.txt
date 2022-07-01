@@ -1,0 +1,15 @@
+Casos de prueba
+
+ATENCION:
+Esto tambien se encuentra en el informe, y tanto los lotes de incidentes, como las polizas, se encuentran en el codigo dentro de la funcion CargarDatosPrueba()
+
+En cuanto a los casos de prueba de incidentes, se carga 2 lotes con todos los casos posibles:
+Del lote 1, hay 2 incidentes que no coinciden con el numero de poliza almacenado en el sistema, y 2 que sí coinciden
+Del lote 2, también hay 2 incidentes que no coinciden con el numero de poliza almacenado en el sistema, y 2 que sí coinciden
+
+En cuanto al archivo de pólizas (Asegurados.BAK) se cargan 5 casos:
+Uno que tiene la póliza activa y con la cuota al dia
+Uno que tiene la póliza activa, pero no la cuota al dia
+Uno que no tiene la póliza activa, pero la cuota al dia
+Uno que no tiene la póliza activa y no tiene la cuota al dia
+Y uno que repita el DNI para el caso de buscar póliza por DNI
